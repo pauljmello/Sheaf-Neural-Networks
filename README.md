@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
   <img src="images/sheafs.png" alt="Colorful Sheaf Illustration">
 </div>
 
