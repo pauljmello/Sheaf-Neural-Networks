@@ -8,6 +8,7 @@
 
 A cellular sheaf on a graph G = (V, E) assigns vector spaces F(v), F(e) to vertices and edges with linear restriction maps F(v→e): F(v) → F(e) that define how information flows. 
 Think of sheaves as adding local vector spaces, the stalks, to graphs and projections between those graph points, allowing data to flow like wind across the field of sheaves while maintaining local independence.
+For more information on the structure and my implementation of Sheaf Neural Networks, please read the attached Sheaf Research paper.
 
 ## Core Concepts
 
@@ -52,18 +53,17 @@ out[s] = out[s] - torch.matmul(L_sd_norm, x[d])
 
 ## Results
 
-![Sheaf vs Graph Network Comparison](results/model_comparison.png "SheafNN vs GraphCN Networks Comparison")
+![Sheaf vs Graph Network Comparison](images/model_comparison.png "SheafNN vs GraphCN Networks Comparison")
 
 In our experiments, we average over three runs, and set the following hyperparameters: layer count = 2, optimizer learning rate and weight decay = 0.01, and set the graph convolution hidden features to 64.
 Our experiments demonstrate that SheafNN can offer better training and test accuracies, while also providing better losses over the course of training.
 
 ## Conclusion
 
-In this work, we expanded Sheaf Neural Networks (SNNs) to the multi-layer setting, applied sheaf diffusion across these layers, and demonstrated that SNNs outperform GraphCN on a variety of tasks.
-We utilized prior works to achieve this, including the Sheaf Laplacian, which generalizes the graph Laplacian through restriction mappings, and the Sheaf Diffusion, which guides information flow through the sheaf Laplacian.
+In this work, SNNs were expanded to the multi-layer setting with the applied Sheaf Diffusion strategy across the cellular sheaves and demonstrated that SNNs outperform GraphCN in a variety of ways. These strategies were utilized, but were developed in prior works. 
+These prior works include the Sheaf Laplacian, which generalizes the graph Laplacian through restriction mappings, and the Sheaf Diffusion, which guides information flow through the Sheaf Laplacian. These methods help to significantly boost the generalization capabilities through abstractions.
 
-Sheaf neural networks provide a very unique approach to modeling complex data. By extending and improving these approaches sheaf neural networks will excell in complex domains like 
-drug discovery, materials science, social network analysis, financial systems, and knowledge graphs where heterophily and expressivity are key.
+SNNs provide a very unique approach to modeling complex data. By extending and improving these approaches SNNs will excel in complex domains like drug discovery, materials science, social network analysis, financial systems, and knowledge graphs where heterophily and expressivity are key.
 
 ## References
 
