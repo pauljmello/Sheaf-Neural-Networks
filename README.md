@@ -65,6 +65,19 @@ These prior works include the Sheaf Laplacian, which generalizes the graph Lapla
 
 SNNs provide a very unique approach to modeling complex data. By extending and improving these approaches SNNs will excel in complex domains like drug discovery, materials science, social network analysis, financial systems, and knowledge graphs where heterophily and expressivity are key.
 
+## Citation
+
+If you use this code in your research, please cite:
+
+```bibtex
+@software{pjmSNN2025,
+  author = {Paul J Mello},
+  title = {Sheaf Neural Networks},
+  url = {[https://github.com/yourusername/ltc-networks](https://github.com/pauljmello/Sheaf-Neural-Networks)},
+  year = {2025},
+}
+```
+
 ## References
 
 [1] Hansen, J., & Gebhart, T. (2020). Sheaf Neural Networks. NeurIPS arXiv:2012.06333.
