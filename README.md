@@ -70,7 +70,7 @@ SNNs provide a very unique approach to modeling complex data. By extending and i
 If you use this code in your research, please cite:
 
 ```bibtex
-@software{pjmSNN2025,
+@software{pjm2025SNN,
   author = {Paul J Mello},
   title = {Sheaf Neural Networks},
   url = {https://github.com/pauljmello/Sheaf-Neural-Networks},
