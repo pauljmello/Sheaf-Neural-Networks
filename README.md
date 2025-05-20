@@ -73,7 +73,7 @@ If you use this code in your research, please cite:
 @software{pjmSNN2025,
   author = {Paul J Mello},
   title = {Sheaf Neural Networks},
-  url = {[https://github.com/yourusername/ltc-networks](https://github.com/pauljmello/Sheaf-Neural-Networks)},
+  url = {https://github.com/pauljmello/Sheaf-Neural-Networks},
   year = {2025},
 }
 ```
